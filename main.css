@@ -2,7 +2,23 @@
     text-align: center;
     padding: 130px 0;
     margin-left: 32px; 
-    
+}
+.headline-container2 {
+    float: right;
+    padding: 130px 0;
+    margin-left: 400px;
+    margin-right: 45px;  
+}
+.headline-container3 {
+    float: right;
+    padding: 130px 0;
+    margin-left: 400px;
+    margin-right: 45px;  
+}
+.headline-container4 {
+    text-align: center;
+    padding: 130px 0;
+    margin-left: 32px; 
 }
 .main {
     font-family: "Libre Baskerville"; 
@@ -11,7 +27,19 @@
     color: #454545;
     margin-top: -35px;
 }
+.main2 {
+    font-size: 48.83px;
+    font-family: Montserrat;
+    font-weight: 300;
+    color: #454545;  
+}
 .intro {
+    font-family: Montserrat;
+    font-size: 39.06px;
+    color: #293aab; 
+    font-weight: 200;
+}
+.intro2 {
     font-family: Montserrat;
     font-size: 39.06px;
     color:#293aab; 
@@ -27,21 +55,17 @@ nav a {
     letter-spacing: 1.4px;
     font-weight: 400;
     font-family: montserrat;
-    color:#293aab;
+    color:#546af7;
     text-decoration: none;    
 }
-.main2 {
-    font-size: 48.83px;
-    font-family: Montserrat;
-    font-weight: 300;
-    color: black;  
+    
+    a:hover {
+	color: #293aab;
+    border-bottom: 2px solid #f7d154; 
+    text-decoration: none;  
 }
-.headline-container2 {
-    float: right;
-    padding: 58px 0;
-    margin-left: 400px;
-    margin-right: 45px;  
-}
+ 
+ 
 P.blocktext {
     margin-top: -30px;
     font-family: "Libre Baskerville"; 
@@ -51,12 +75,7 @@ P.blocktext {
     color: #454545;
     width: 38em;
 }
-.headline-container3 {
-    float: right;
-    padding: 58px 0;
-    margin-left: 400px;
-    margin-right: 45px;  
-}
+ 
 body {font-family: "Libre Baskerville", Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
@@ -87,6 +106,44 @@ label {
     font-family: "libre Baskerville";
     font-size: 16px;
 }
-   
+/* Style all font awesome icons */
+.fa {
+    padding: 2px;
+    font-size: 55px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 85px 2px;
+    border-radius: 50%;
+}
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    background:#293aab;
+    color: white; 
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background:#546af7; 
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background:#546af7;
+    color: white;
+  }
 
+   /* Instagram */
+  .fa-instagram {
+    background:#546af7; 
+    color: white;
+  }
+  footer {
+      text-align: center;
+  }
+   
  
