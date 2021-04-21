@@ -1,3 +1,4 @@
+
 .headlinecontainer {
     text-align: center;
     padding: 130px 0;
@@ -5,9 +6,10 @@
 }
 .headline-container2 {
     float: right;
-    padding: 130px 0;
+    padding: 10px 0 0 0;
     margin-left: 400px;
-    margin-right: 45px;  
+    margin-right: 73px;  
+	 
 }
 .headline-container3 {
     float: right;
@@ -17,7 +19,7 @@
 }
 .headline-container4 {
     text-align: center;
-    padding: 130px 0;
+    padding: 88.5px 0;
     margin-left: 32px; 
 }
 .main {
@@ -31,7 +33,7 @@
     font-size: 48.83px;
     font-family: Montserrat;
     font-weight: 300;
-    color: #454545;  
+    color: #00000;  
 }
 .intro {
     font-family: Montserrat;
@@ -48,6 +50,7 @@
 nav {
     float: right;
     margin: 48px 62px 0 0;
+	 
 }
 nav a {
     padding: 14px 16px;
@@ -57,23 +60,21 @@ nav a {
     font-family: montserrat;
     color:#546af7;
     text-decoration: none;    
-}
-    
+}   
     a:hover {
 	color: #293aab;
     border-bottom: 2px solid #f7d154; 
     text-decoration: none;  
 }
  
- 
 P.blocktext {
-    margin-top: -30px;
+    margin-top: -25px 0 50px 0;;
     font-family: "Libre Baskerville"; 
     font-size: 14px;
     line-height: 1.75;
     font-weight: 400;
-    color: #454545;
-    width: 38em;
+    color: #696969;
+    width: 48em;
 }
  
 body {font-family: "Libre Baskerville", Helvetica, sans-serif;}
@@ -113,8 +114,8 @@ label {
     width: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 85px 2px;
     border-radius: 50%;
+	margin-top: 50px;
 }
   
   /* Add a hover effect if you want */
@@ -144,6 +145,8 @@ label {
   }
   footer {
       text-align: center;
+	  margin-top: 95px;
   }
-   
+	   
+  
  
