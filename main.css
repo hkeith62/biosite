@@ -1,5 +1,6 @@
+/* Fit to screen and eliminate scrolling */
  html {
-	 overflow: hidden;                                     /* Fit to screen and eliminate scrolling */
+	 overflow: hidden;                                     
  }
  body {
 	width: 100%;
@@ -14,10 +15,11 @@
 	width: 100%; 
 	height: 100%;
 	position: relative; 
-	margin-top: 25px;                                         /*center vertically with margin top and inner-container height*/ 
+	margin-top: 25px;                                         
 }
+/*center vertically with container margin top and inner-container height*/ 
 #inner-container {
-	margin: auto;                                            /* Center the inner-container horizontlly */
+	margin: auto;                                            
 	width: 94%;
 	height: 600px;            
 	border: 1px solid blue;
@@ -28,9 +30,10 @@
 	height: 50px;
 	margin: 0;
 }
-#navigation {                                              /*Navigation positioning */
+ /*Navigation positioning */
+#navigation {                                            
     position: fixed;
-	right: 32px;                                            /*fixed position requires right and margin-right. */
+	right: 32px;                                         
 	margin-right: 32px;
 	height: 100px;
     float: right;
@@ -38,8 +41,9 @@
 li {
 	display: inline;
 }
+ /*Navigation links*/
 li a {
-	display: inline-block;                                 /*Navigation links*/
+	display: inline-block;                                 
     font-family: montserrat;
     font-size: 16px;
     letter-spacing: 1.4px;
@@ -57,36 +61,95 @@ li a:hover {
 	width: 100%;
 	height: 500px; 
 }
+/*Adjusting width shifts content container to right or left. */
 #contentcontainer2 { 
-	width: 93%;                                             /*Shifts content container to right or left. */
+	width: 93%;                                           
 	height: 500px;
 	float: right;
 	margin-left: 60px;
 }
- #great-image {                                             /* Photo positioning */
+ /* About page image positioning */
+ #great-image {                                            
 	clear: right;
     float: left;
 	margin-left: 40px;
 	margin-right: 22px;
  }
- #great-image2 {                                             /* Photo positioning */
+ /* Main age image positioning */
+ #great-image2 {                                             
 	clear: right;
     float: left;
 	margin-left: 40px;
-	margin-right: 80px;
+	margin-right: 22px;
  }
+.image-container {                                           
+	 width: 400px;
+	 height: 470px;
+	 border: 1px solid white;
+ }
+ /*Use border to adjust hobby image frames*/
+.displayed {
+	  display: block;
+	  margin: auto;
+	  margin-right: auto;
+	  border: 10px solid #555;                               
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+}
+.display-center {
+  float: left;
+  margin-left: 12px;
+  width: 45.3%;
+  padding: 1px; 
+  margin-bottom: 10px;
+  }
+  
+/* Clearfix (clear floats) */
+.image-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
  #content {
 	margin-right: 6px;
  }
+ /* Use #main padding to raise or lower the entire content section of the desired page */
  #main2 {
 	width: 100%;  
 	color: #F7E154;
-	padding-top: 20px;                                      /* Raises and lowers the content section */
+	padding-top: 20px;                                    
  }
  #main3 {
 	width: 100%;  
 	color: #F7E154;
-	padding-top: 1px;  
+	padding-top: 2px;  
+ }
+  #main4 {
+	width: 100%;  
+	color: #F7E154;
+	padding-top: 5px; 
+    padding-bottom: 10px;
+	 font-family: "Libre Baskerville"; 
+    font-size: 48.83px;
+    font-weight: 400;
+    color: #454545;
+ } 
+#intro  {
+	width: 70%;
+	text-align: center;	
+ }
+ #hobbyintro {
+	 width: 70%;
+	text-align: center;	
+ }
+ .meet {
+	margin-top: 21px;
+	padding-top: 65px;
+	margin-bottom: -10px;
+	font-family: Montserrat;
+    font-size: 39.06px;
+    color: #293aab; 
+    font-weight: 200;
  }
  input[type=text],[type=email], select, textarea {
     width: 40%;
@@ -111,18 +174,19 @@ label {
     font-family: "libre Baskerville";
     font-size: 14px;
 }
+ /* footer padding allows for vertical centering of the social media links*/
  #footer {
 	width: 93.7%;
 	height: 85px;
-	text-align: center;                                    /*Horizontal centering of Social media links */
+	text-align: center;                                     
 	position: fixed;
 	bottom: 0;
 	border: 1px dashed white;
 	margin-bottom: 30px;
-	padding: 8px 0;                                        /*Vertical centering of the social media links*/
+	padding: 8px 0;                                        
  }  
  .socialmedia {                      
-	margin: auto;	                                   /*Vertical positioning of the social media container */
+	margin: auto;	                                   
 	width: 50%;
 	margin-bottom: 50px;
  } 
@@ -140,7 +204,7 @@ label {
     background:#293aab;
     color: white; 
  }
-  /* Set a specific color for each brand */
+ /* Set a specific color for each brand */
   
   /* Facebook */
   .fa-facebook {
@@ -161,10 +225,8 @@ label {
     text-align: center;
 	margin-top: 95px;
   }
+  
  
-p.blocktext {                                              /*Bio content */
-	  
-}
-
+ 
   
  
