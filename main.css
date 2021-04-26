@@ -1,13 +1,13 @@
 /* Fit to screen and eliminate scrolling */
- html {
-	 overflow: hidden;                                     
- }
- body {
+html {
+	overflow: hidden;                                     
+}
+body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	background-color: gray;
- }
+	 
+}
  * {
   box-sizing: border-box;
 }
@@ -22,7 +22,7 @@
 	margin: auto;                                            
 	width: 94%;
 	height: 600px;            
-	border: 1px solid blue;
+	border: 1px dashed blue;
     padding: 0;  
 }
 .header {
@@ -30,7 +30,7 @@
 	height: 50px;
 	margin: 0;
 }
- /*Navigation positioning */
+/*Navigation positioning */
 #navigation {                                            
     position: fixed;
 	right: 32px;                                         
@@ -41,7 +41,7 @@
 li {
 	display: inline;
 }
- /*Navigation links*/
+/*Navigation links*/
 li a {
 	display: inline-block;                                 
     font-family: montserrat;
@@ -68,33 +68,37 @@ li a:hover {
 	float: right;
 	margin-left: 60px;
 }
- /* About page image positioning */
- #great-image {                                            
+/* About page image positioning */
+#great-image {                                            
 	clear: right;
     float: left;
 	margin-left: 40px;
 	margin-right: 22px;
- }
- /* Main age image positioning */
+	 
+}
+/* Main age image positioning */
  #great-image2 {                                             
 	clear: right;
     float: left;
 	margin-left: 40px;
 	margin-right: 22px;
- }
-.image-container {                                           
-	 width: 400px;
-	 height: 470px;
-	 border: 1px solid white;
- }
- /*Use border to adjust hobby image frames*/
+	margin-top: 6px;
+}
+.image-container { 
+    float: left;
+	width: 400px;
+	height: 470px;
+	border: 1px solid white;
+	margin-right: 100px;
+}
+/*Use border to adjust hobby image frames*/
 .displayed {
-	  display: block;
-	  margin: auto;
-	  margin-right: auto;
-	  border: 10px solid #555;                               
-	  margin-top: 10px;
-	  margin-bottom: 10px;
+	display: block;
+	margin: auto;
+	margin-right: auto;
+	border: 10px solid #555;                               
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .display-center {
   float: left;
@@ -102,95 +106,126 @@ li a:hover {
   width: 45.3%;
   padding: 1px; 
   margin-bottom: 10px;
-  }
-  
+}
 /* Clearfix (clear floats) */
 .image-container::after {
   content: "";
   clear: both;
   display: table;
 }
- #content {
-	margin-right: 6px;
- }
- /* Use #main padding to raise or lower the entire content section of the desired page */
- #main2 {
+ #content { 
+	width: 99%;
+}
+/* Use #main padding to raise or lower the entire content section of the desired page */
+#main2 {
 	width: 100%;  
-	color: #F7E154;
-	padding-top: 20px;                                    
- }
- #main3 {
+	color: #454545;
+	padding-top: 2px; 
+    font-family: "Libre Baskerville"; 
+    font-size: 39.81px;
+    font-weight: 200;
+	margin-bottom: -6px;
+}
+#main3 {
 	width: 100%;  
 	color: #F7E154;
 	padding-top: 2px;  
- }
-  #main4 {
+}
+#main4 {
 	width: 100%;  
 	color: #F7E154;
 	padding-top: 5px; 
     padding-bottom: 10px;
-	 font-family: "Libre Baskerville"; 
-    font-size: 48.83px;
+	font-family: "Libre Baskerville"; 
+    font-size: 39.81px;
     font-weight: 400;
     color: #454545;
- } 
+} 
+#main5 {
+	width: 100%;  
+	color: #F7E154;
+	font-family: "Libre Baskerville"; 
+    font-size: 39.81px;
+    font-weight: 400;
+    color: #454545;
+} 
 #intro  {
 	width: 70%;
 	text-align: center;	
- }
- #hobbyintro {
-	 width: 70%;
-	text-align: center;	
- }
- .meet {
+}
+#intro-two {
+	width: 70%;
+	text-align: center;
+}
+.meet {
 	margin-top: 21px;
 	padding-top: 65px;
 	margin-bottom: -10px;
 	font-family: Montserrat;
-    font-size: 39.06px;
+    font-size: 33.18px;
     color: #293aab; 
     font-weight: 200;
- }
- input[type=text],[type=email], select, textarea {
+}
+.meet2 {
+	margin-top: 21px;
+	padding-top: 65px;
+	margin-bottom: -20px;
+	font-family: Montserrat;
+    font-size: 33.018px;
+    color: #293aab; 
+    font-weight: 200;
+}
+/*Contact Form */
+#contact-form {
+	width: 85%;
+}
+P.blocktext {
+    color:#696969;
+	font-family: "libre Baskerville";
+	text-indent: .9em;
+	font-size: 14px;
+	line-height: 1.75;	  
+}
+input[type=text],[type=email], select, textarea {
     width: 40%;
 	padding: 9px;
     border: 1px solid #ccc;
 	border-radius: 4px;
 	margin-top: 6px;
 	margin-bottom: 16px;
- }
-   input[type=submit] {
+}
+input[type=submit] {
     background-color:#F7E154;
     color: white;
     padding: 10px 18px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  input[type=submit]:hover {
+}
+input[type=submit]:hover {
     background-color: #293aab;
-  }
+}
 label {
     font-family: "libre Baskerville";
     font-size: 14px;
 }
- /* footer padding allows for vertical centering of the social media links*/
- #footer {
+/* footer padding allows for vertical centering of the social media links*/
+#footer {
 	width: 93.7%;
 	height: 85px;
 	text-align: center;                                     
 	position: fixed;
 	bottom: 0;
-	border: 1px dashed white;
+	border: 1px dashed blue;
 	margin-bottom: 30px;
 	padding: 8px 0;                                        
  }  
- .socialmedia {                      
+.socialmedia {                      
 	margin: auto;	                                   
 	width: 50%;
 	margin-bottom: 50px;
  } 
- /* Style all font awesome icons */
+/* Style all font awesome icons */
 .fa {
     padding: 2px;
     width: 25px;
@@ -199,33 +234,28 @@ label {
     border-radius: 50%;
 	margin-top: 48px;
 }
-  /* Add a hover effect if you want */
+/* Add a hover effect if you want */
   .fa:hover {
     background:#293aab;
     color: white; 
- }
- /* Set a specific color for each brand */
-  
-  /* Facebook */
+}
+/* Set a specific color for each brand */
+ /* Facebook */
   .fa-facebook {
     background:#546af7; 
     color: white;
-  }
-  /* Twitter */
-  .fa-twitter {
+}
+/* Twitter */
+.fa-twitter {
     background:#546af7;
     color: white;
-  }
-   /* Instagram */
-  .fa-instagram {
+}
+/* Instagram */
+.fa-instagram {
     background:#546af7; 
     color: white;
-  }
-  footer {
-    text-align: center;
-	margin-top: 95px;
-  }
-  
+}
+   
  
  
   
