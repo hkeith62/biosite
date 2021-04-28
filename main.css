@@ -5,7 +5,7 @@ html {
 body {
 	width: 100%;
 	height: 100%;
-	margin: 0;
+	margin: 0; 
 }
  * {
   box-sizing: border-box;
@@ -14,15 +14,16 @@ body {
 	width: 100%; 
 	height: 100%;
 	position: relative; 
-	margin-top: 25px;                                         
+	margin-top: 25px; 
 }
 /*center vertically with container margin top and inner-container height*/ 
 #inner-container {
 	margin: auto;                                            
 	width: 94%;
 	height: 600px;            
-	border: 1px dashed blue;
+	border: 1px solid #a9a9a9;
     padding: 0;  
+	box-shadow: 5px 10px 8px 8px #a9a9a9;
 }
 .header {
 	width: 100%;
@@ -46,7 +47,7 @@ li a {
     font-family: montserrat;
     font-size: 16px;
     letter-spacing: 1.4px;
-    font-weight:400;
+    font-weight:500;
     color: #293aab;    
     text-align: center;
     padding: 14px 16px;
@@ -81,6 +82,7 @@ li a:hover {
 	margin-right: 42px;
 	margin-top: -20px;
 	margin-left: 100px; 
+	border-radius: 3px;
 }
 .image-container { 
     float: left;
@@ -92,8 +94,11 @@ li a:hover {
 .image-container2 { 
     float: left;
 	width: 400px;
-	height: 470px;
-	border: 1px solid white;
+	height: 438px;
+	margin-top: 24px;
+	margin-left: -55px;
+	padding-top: 10px;
+	background-color: #546af7 ; 
 }
 /*Use border to adjust hobby image frames*/
 .displayed {
@@ -107,10 +112,8 @@ li a:hover {
 .displayed2 {
 	display: block;
 	margin: auto;
-	margin-right: auto;
 	border: 2px solid #555;                               
-	margin-top: 5px;
-	margin-bottom: 5px;
+	border-radius: 50%;
 }
 .display-center {
   float: right;
@@ -143,42 +146,59 @@ li a:hover {
  #content2 { 
 	width: 60%;
 	float: right;
-	margin-right: 70px;
+	margin-right: 130px;
+	padding-left: 65px;
 }
 /* Use #main padding to raise or lower the entire content section of the desired page */
 #main2 {
 	width: 100%;  
-	color: #454545;
+	color: #000000;
 	padding-top: 2px; 
     font-family: "Libre Baskerville"; 
-    font-size: 39.81px;
-    font-weight: 200;
+    font-size: 34.84px;
+    font-weight: 400;
 	margin-bottom: -6px;
 }
 #main3 {
 	width: 100%;  
 	color: #F7E154;
-	padding-top:  1px;
+	padding-top: 1px;
 }
 #main4 {
 	width: 100%;  
-	color: #F7E154;
-	padding-top: 5px; 
-    padding-bottom: 10px;
+	color: #000000;
+	padding-top: 10px; 
+    padding-bottom: 35px;
 	font-family: "Libre Baskerville"; 
-    font-size: 39.81px;
+    font-size: 34.84px;
     font-weight: 400;
-    color: #454545;
+    color: #646464;
 } 
 #main5 {
 	width: 100%;  
-	color: #F7E154;
+	color: #000000;
 	font-family: "Libre Baskerville"; 
-    font-size: 39.81px;
+    font-size: 34.84px;
     font-weight: 400;
     color: #454545;
 	margin-top: 35px;
-} 
+}
+.quotes {
+    font-family: Montserrat; 
+    font-size: 16.80px;	
+	width: 100%;
+	line-height: 1.75;
+	font-weight: 200;
+}
+#main8 {
+	font-size: 34.84px;
+	font-family: "Libre Baskerville";
+    color: white;	
+	letter-spacing: .5px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 45px;
+}
 #intro  {
 	width: 70%;
 	text-align: center;	
@@ -189,21 +209,21 @@ li a:hover {
 }
 .meet {
 	margin-top: 26px;
-	padding-top: 65px;
+	padding-top: 105px;
 	margin-bottom: -10px;
 	font-family: Montserrat;
-    font-size: 33.18px;
+    font-size: 29.03px;
+	font-weight: 500;
     color: #293aab; 
-    font-weight: 200;
 }
 .meet2 {
 	margin-top: 21px;
 	padding-top: 65px;
 	margin-bottom: -20px;
 	font-family: Montserrat;
-    font-size: 33.018px;
+    font-size: 29.03px;
     color: #293aab; 
-    font-weight: 200;
+    font-weight: 500;
 }
 /*Teasers*/
 .teasers {
@@ -212,9 +232,13 @@ li a:hover {
 .hobbies {
 	float: left;
 	width: 33.33;
+	position: relative;
 	padding: 10px;
 	margin-left: 30px;
 	margin-top: 45px;
+	font-family: Montserrat; 
+	color: white;
+	font-weight: 600;
 }
 .row::after {
   content: "";
@@ -223,6 +247,12 @@ li a:hover {
 }
 .caption {
 	text-align: center;
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 14px;
+	letter-spacing: 1px;	 
 }
 /*Contact Form */
 #contact-form {
@@ -235,15 +265,17 @@ li a:hover {
 	padding-right: 10px;
 }
 P.blocktext {
-    color:#696969;
+    color: #333333 ;
 	font-family: "libre Baskerville";
 	text-indent: .9em;
 	font-size: 14px;
-	line-height: 1.75;	  
+	line-height: 1.75;	 
+letter-spacing: .5px;	
 }
 input[type=text],[type=email], select, textarea {
     width: 90%;
 	font-family: "libre Baskerville";
+	font-size: 11.67px;
 	padding: 7px;
     border: 1px solid #ccc;
 	border-radius: 4px;
@@ -263,8 +295,9 @@ input[type=submit]:hover {
     background-color: #293aab;
 }
 label {
-    font-family: "libre Baskerville";
+    font-family: Montserrat;
     font-size: 14px;
+	font-weight: 300;
 }
 /* footer padding allows for vertical centering of the social media links*/
 #footer {
@@ -273,14 +306,12 @@ label {
 	text-align: center;                                     
 	position: fixed;
 	bottom: 0;
-	border: 1px dashed blue;
 	margin-bottom: 30px;
-	padding: 8px 0;                                        
+	padding: 8px 0;  	
  }  
-.socialmedia {                      
-	margin: auto;	                                   
-	width: 50%;
-	margin-bottom: 50px;
+.socialmedia {                                                         
+	width: 100%;
+	margin-left: 57.5px;
  } 
 /* Style all font awesome icons */
 .fa {
