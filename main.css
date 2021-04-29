@@ -169,7 +169,7 @@ li a:hover {
 	color: #000000;
 	padding-top: 15px; 
 	font-family: "Libre Baskerville"; 
-    font-size: 34.84px;
+    font-size: 42.72px;
     font-weight: 400;
     color: #646464;
 } 
@@ -177,7 +177,7 @@ li a:hover {
 	width: 100%;  
 	color: #000000;
 	font-family: "Libre Baskerville"; 
-    font-size: 34.84px;
+    font-size: 42.72px;
     font-weight: 400;
     color: #454545;
 	margin-top: 35px;
@@ -223,8 +223,8 @@ li a:hover {
 	padding-top: 105px;
 	margin-bottom: -10px;
 	font-family: Montserrat;
-    font-size: 29.03px;
-	font-weight: 500;
+    font-size: 34.18px;
+	font-weight: 300;
     color: #293aab; 
 }
 .meet2 {
@@ -232,21 +232,21 @@ li a:hover {
 	padding-top: 65px;
 	margin-bottom: -20px;
 	font-family: Montserrat;
-    font-size: 29.03px;
+    font-size: 34.18px;
     color: #293aab; 
-    font-weight: 500;
+    font-weight: 300;
 }
 .teaser {
 	margin-bottom: 20px;
 	width: 100%;
-    margin-top: -10px;
-	 
-	 
+    margin-top: -10px; 	 
 }
 .talents {
 	font-family: "Libre Baskerville";  
 	font-size: 11.67px;
 	text-align: center;
+	color: #454545;
+	letter-spacing: .5px;
 }
 .row::after {
   content: "";
@@ -319,7 +319,7 @@ label {
  }  
 .socialmedia {                                                         
 	width: 100%;
-	margin-left: 57.5px;
+	margin-left: 61.5px;
  } 
 /* Style all font awesome icons */
 .fa {
