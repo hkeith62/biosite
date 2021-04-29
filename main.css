@@ -192,7 +192,6 @@ li a:hover {
 	margin-bottom: 4px;
 	margin-top: 20px;
 	margin-left: 40px;
-	 
 	line-height: 1.75;
 }
 .quotes {
@@ -237,22 +236,6 @@ li a:hover {
     font-size: 29.03px;
     color: #293aab; 
     font-weight: 500;
-}
-/*Teasers*/
-.teasers {
-	width: 100%;
-}
-.hobbies {
-	float: left;
-	width: 90.33px;
-	position: relative;
-	padding: 10px;
-	margin-left: 30px;
-	margin-top: 45px;
-	font-family: Montserrat; 
-	color: white;
-	font-weight: 600;
-	Border: 3px solid brown;
 }
 .row::after {
   content: "";
