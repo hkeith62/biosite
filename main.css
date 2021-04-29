@@ -186,12 +186,13 @@ li a:hover {
 #main6 {
 	width: 100%;  
 	color: #000000;
-	padding-bottom: 10px; 
     font-family: "Libre Baskerville"; 
-    font-size: 16.80px;
+    font-size: 34.34px;
     font-weight: 400;
-	margin-bottom: -6px;
+	margin-bottom: 4px;
+	margin-top: 20px;
 	margin-left: 40px;
+	 
 	line-height: 1.75;
 }
 .quotes {
@@ -202,9 +203,10 @@ li a:hover {
 	font-weight: 200;
 }
 #main8 {
-	font-size: 34.84px;
-	font-family: "Libre Baskerville";
-    color: white;	
+	font-size: 29.03px;
+	font-family: Montserrat;
+    color: white; 
+    font-weight: 500; 	
 	letter-spacing: .5px;
 	text-align: center;
 	margin-top: 25px;
@@ -250,6 +252,7 @@ li a:hover {
 	font-family: Montserrat; 
 	color: white;
 	font-weight: 600;
+	Border: 3px solid brown;
 }
 .row::after {
   content: "";
@@ -281,7 +284,7 @@ P.blocktext {
 	text-indent: .9em;
 	font-size: 14px;
 	line-height: 1.75;	 
-letter-spacing: .5px;	
+    letter-spacing: .5px;	
 }
 input[type=text],[type=email], select, textarea {
     width: 90%;
