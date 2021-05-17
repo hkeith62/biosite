@@ -9,7 +9,7 @@ body {
 }
  * {
   box-sizing: border-box;
-}
+ }
 #container {
 	width: 100%; 
 	height: 100%;
@@ -44,7 +44,7 @@ li {
 /*Navigation links*/
 li a {
 	display: inline-block;                                 
-    font-family: montserrat;
+    font-family: montserrat, Verdana, Arial, sans-serif; 
     font-size: 16px;
     letter-spacing: 1.4px;
     font-weight: 600;
@@ -60,7 +60,16 @@ li a:hover {
 li a:active {
 	color: #F7E154;
 }
-#contentcontainer {
+.hover {
+	width: 35%;
+	text-align: center;
+	margin-top: 45px;
+	font-family: monsterrat, Verdana, Arial, sans-serif;
+    font-size: 13.33px;	
+	font-weight: 600;
+    color: black;	
+}
+#maincontentcontainer {
 	width: 100%;
 	height: 500px; 
 }
@@ -74,6 +83,7 @@ li a:active {
 	width: 93%;                                           
 	height: 500px;
 	margin-left: 30px;
+	margin-top: -40px;
 }
 /* About page image positioning */
 #great-image {                                            
@@ -108,7 +118,13 @@ li a:active {
 .displayed {
 	display: block;
 	margin: auto;
-	border: 10px solid #555;                               
+	border: .1px solid #2c778f;
+}
+.displayed:hover {
+	
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 .displayed2 {
 	display: block;
@@ -122,11 +138,23 @@ li a:active {
   padding: 10px; 
   margin-bottom: 5px;
 }
+.display-center:hover {
+	
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 .display-center1 {
   float: left;
   width: 45.3%;
   padding: 10px; 
   margin: 0 0 5px -25px;
+}
+.display-center1:hover {
+	
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 .caption2 {
 	margin-top: 3px;
@@ -151,7 +179,7 @@ li a:active {
 #main2 {
 	width: 100%;  
 	color: #000000;
-    font-family: "Libre Baskerville"; 
+    font-family: "Libre Baskerville", Verdana, Arial, sans-serif;
     font-size: 34.84px;
     font-weight: 400;
 	margin-bottom: -6px;
@@ -161,14 +189,14 @@ li a:active {
 	width: 100%;  
 	color: #000000;
 	padding-top: 15px; 
-	font-family: "Libre Baskerville"; 
+	font-family: "Libre Baskerville", Verdana, Arial, sans-serif;  
     font-size: 42.72px;
     font-weight: 400;
 } 
 #main5 {
 	width: 100%;  
 	color: #000000;
-	font-family: "Libre Baskerville"; 
+	font-family: "Libre Baskerville", Verdana, Arial, sans-serif ; 
     font-size: 42.72px;
     font-weight: 400;
     color: #454545;
@@ -177,14 +205,14 @@ li a:active {
 #main6 {
 	width: 100%;  
 	color: #000000;
-    font-family: "Libre Baskerville"; 
+    font-family: "Libre Baskerville",  Verdana, Arial, sans-serif;
     font-size: 34.34px;
     font-weight: 400;
 	margin: 20px 0 4px 40px;
 	line-height: 1.75;
 }
 .quotes {
-    font-family: Montserrat; 
+    font-family: Montserrat, Verdana, Arial, sans-serif;  
     font-size: 16.80px;	
 	width: 100%;
 	line-height: 1.75;
@@ -192,9 +220,9 @@ li a:active {
 }
 #main8 {
 	font-size: 29.03px;
-	font-family: Montserrat;
+	font-family: Montserrat,  Verdana, Arial, sans-serif;
     color: white; 
-    font-weight: 500; 	
+    font-weight: 600; 	
 	letter-spacing: .5px;
 	text-align: center;
 	margin-top: 25px;
@@ -212,7 +240,7 @@ li a:active {
 	margin-top: 26px;
 	padding-top: 105px;
 	margin-bottom: -10px;
-	font-family: Montserrat;
+	font-family: Montserrat,  Verdana, Arial, sans-serif;
     font-size: 34.18px;
 	font-weight: 300;
     color: #293aab; 
@@ -221,16 +249,17 @@ li a:active {
 	margin-top: 21px;
 	padding-top: 65px;
 	margin-bottom: -20px;
-	font-family: Montserrat;
+	font-family: Montserrat,  Verdana, Arial, sans-serif;
     font-size: 34.18px;
     color: #293aab; 
     font-weight: 300;
 }
 .talents {
-	font-family: "Libre Baskerville";  
+	font-family: "Libre Baskerville", Verdana, Arial, sans-serif; 
 	font-size: 14px;
+	font-weight: 400;
 	text-align: center;
-	color: #454545;
+	color: black;
 	letter-spacing: .5px;
 }
 .row::after {
@@ -255,8 +284,8 @@ li a:active {
 	padding: 12px 10px 15px 70px;
 }
 P.blocktext {
-    color: #333333 ;
-	font-family: "libre Baskerville";
+    color: #333333;
+	font-family: "libre Baskerville", Verdana, Arial, sans-serif;
 	text-indent: .9em;
 	font-size: 14px;
 	line-height: 1.75;	 
@@ -264,7 +293,7 @@ P.blocktext {
 }
 input[type=text],[type=email], select, textarea {
     width: 90%;
-	font-family: "libre Baskerville";
+	font-family: "libre Baskerville", Verdana, Arial, sans-serif;
 	font-size: 11.67px;
 	padding: 7px;
     border: 1px solid #ccc;
@@ -273,23 +302,24 @@ input[type=text],[type=email], select, textarea {
 	margin-bottom: 14px;
 }
 input[type=submit] {
-	font-family: "libre Baskerville";
+	font-family: "libre Baskerville", Verdana, Arial, sans-serif;
 	font-size: 16px;
-    background-color:#546af7; 
+    background-color: #293aab;
     color: #ffffff;
-	font-weight:500;
+	font-weight:600;
+	letter-spacing: .5px;
     padding: 10px 18px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #293aab;
+    background-color: #546af7;
 }
 label {
-    font-family: Montserrat;
+    font-family: Montserrat, Verdana, Arial, sans-serif; 
     font-size: 14px;
-	font-weight: 500;
+	font-weight: 600;
 }
 /* footer padding allows for vertical centering of the social media links*/
 #footer {
@@ -305,6 +335,9 @@ label {
 	width: 100%;
 	margin-left: 61.5px;
  } 
+ .socialmedia a:focus {
+	outline: 2px solid blue; 
+ }
 /* Style all font awesome icons */
 .fa {
     padding: 2px;
@@ -312,7 +345,7 @@ label {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-	margin-top: 48px;
+	margin: 48px 2px 2px 2px;
 }
 /* Add a hover effect if you want */
   .fa:hover {
