@@ -173,6 +173,7 @@ li a:active {
 }
  #content { 
 	width: 100%;
+	 
 }
  #content2 { 
 	width: 60%;
@@ -295,7 +296,9 @@ P.blocktext {
 	text-indent: .9em;
 	font-size: 14px;
 	line-height: 1.75;	 
-    letter-spacing: .5px;	
+    letter-spacing: .5px;
+    margin-right: 4px; 	
+	 
 }
 input[type=text],[type=email], select, textarea {
     width: 90%;
